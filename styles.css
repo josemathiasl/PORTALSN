@@ -85,3 +85,33 @@ footer {
     color: #28a745; /* Cor do texto de resultado */
     margin-top: 20px; /* Margem acima */
 }
+
+/* Media Queries para Responsividade */
+@media (max-width: 600px) {
+    /* Estilização para telas menores que 600px */
+    header {
+        padding: 5px; /* Menos espaçamento no cabeçalho */
+    }
+    
+    .logo {
+        width: 100px; /* Logo menor em telas pequenas */
+    }
+
+    form {
+        margin: 20px; /* Menos margem em telas pequenas */
+        padding: 15px; /* Menos espaçamento interno */
+    }
+
+    nav a {
+        margin: 0 10px; /* Menos espaçamento entre os links */
+        font-size: 14px; /* Tamanho de fonte menor */
+    }
+
+    button {
+        padding: 8px; /* Menos espaçamento no botão */
+    }
+
+    #resultado {
+        font-size: 14px; /* Menor tamanho de fonte para o resultado */
+    }
+}
