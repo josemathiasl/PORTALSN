@@ -1,0 +1,87 @@
+/* Cabeçalho */
+header {
+    background-color: #003366; /* Cor do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 10px; /* Espaçamento */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Logo */
+.logo {
+    width: 150px; /* Largura do logo */
+    cursor: pointer; /* Mão ao passar o mouse */
+}
+
+/* Navegação */
+nav {
+    margin: 10px 0; /* Margem */
+}
+
+nav a {
+    color: #fff; /* Cor dos links */
+    margin: 0 15px; /* Espaçamento entre os links */
+    text-decoration: none; /* Sem sublinhado */
+}
+
+/* Container do Formulário */
+form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 50px auto; /* Margem superior e centralização */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda do formulário */
+    background-color: #fff; /* Fundo do formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Labels */
+label {
+    display: block; /* Bloco */
+    margin: 10px 0 5px; /* Margem */
+}
+
+/* Campos de Entrada */
+input[type="text"], select, textarea {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin: 5px 0; /* Margem */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Grupo de Botões */
+.button-group {
+    display: flex; /* Exibição em linha */
+    justify-content: space-between; /* Distribuição dos botões */
+}
+
+/* Estilos dos Botões */
+button {
+    background-color: #0056b3; /* Cor do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px; /* Espaçamento interno */
+    cursor: pointer; /* Mão ao passar o mouse */
+}
+
+/* Hover dos Botões */
+button:hover {
+    background-color: #004494; /* Cor do botão ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Espaçamento */
+    background-color: #003366; /* Cor do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    position: relative; /* Posição */
+    bottom: 0; /* Alinhamento */
+    width: 100%; /* Largura total */
+}
+
+/* Resultado do Chamado */
+#resultado {
+    text-align: center; /* Centraliza o texto */
+    color: #28a745; /* Cor do texto de resultado */
+    margin-top: 20px; /* Margem acima */
+}
