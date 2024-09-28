@@ -97,20 +97,14 @@ footer {
         width: 100px; /* Logo menor em telas pequenas */
     }
 
-    nav {
-        display: flex; /* Exibição em linha */
-        flex-direction: column; /* Alinha verticalmente */
-        align-items: center; /* Centraliza os itens */
-    }
-
-    nav a {
-        margin: 5px 0; /* Espaçamento vertical entre os links */
-        font-size: 16px; /* Tamanho de fonte um pouco maior */
-    }
-
     form {
         margin: 20px; /* Menos margem em telas pequenas */
         padding: 15px; /* Menos espaçamento interno */
+    }
+
+    nav a {
+        margin: 0 10px; /* Menos espaçamento entre os links */
+        font-size: 14px; /* Tamanho de fonte menor */
     }
 
     button {
@@ -119,10 +113,5 @@ footer {
 
     #resultado {
         font-size: 14px; /* Menor tamanho de fonte para o resultado */
-    }
-
-    footer {
-        padding: 15px 0; /* Aumentar o padding do rodapé para mais espaço */
-        font-size: 14px; /* Menor tamanho de fonte no rodapé */
     }
 }
